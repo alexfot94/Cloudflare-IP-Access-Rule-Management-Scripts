@@ -65,6 +65,6 @@ IMPORTANT NOTES
 - Avoid exceeding Cloudflare API rate limits. The scripts wait and retry if needed.
 - Make sure PowerShell has permission to write to your Desktop.
 - Do not share your Cloudflare API credentials.
-
-import.ps1 & export.ps1 are for Cloudflare Zone IP's
-exportGLOBALIPS.ps1 & importGLOBALIPS.ps1 are for Cloudflare Account ID
+********WARNING*
+use import.ps1 & export.ps1 for zone only
+use exportGLOBALIPS.ps1 & importGLOBALIPS.ps1 for global Cloudflare Account ID
