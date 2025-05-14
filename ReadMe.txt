@@ -6,7 +6,7 @@ DESCRIPTION
 These two PowerShell scripts are used to EXPORT and IMPORT IP Access Rules 
 (firewall rules) for a specific Cloudflare zone.
 
-You can use them to back up existing rules or replicate them in another zone.
+You can use them to back up existing rules or replicate them in another account (Zone ID or Account ID).
 
 LANGUAGE & TECHNOLOGY
 ---------------------
