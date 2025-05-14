@@ -1,6 +1,11 @@
 README - Cloudflare IP Access Rule Management Scripts
 =====================================================
 
+********WARNING**********
+use import.ps1 & export.ps1 for zone only
+use exportGLOBALIPS.ps1 & importGLOBALIPS.ps1 for global Cloudflare Account ID
+*************************
+
 DESCRIPTION
 -----------
 These two PowerShell scripts are used to EXPORT and IMPORT IP Access Rules 
@@ -65,6 +70,4 @@ IMPORTANT NOTES
 - Avoid exceeding Cloudflare API rate limits. The scripts wait and retry if needed.
 - Make sure PowerShell has permission to write to your Desktop.
 - Do not share your Cloudflare API credentials.
-********WARNING*
-use import.ps1 & export.ps1 for zone only
-use exportGLOBALIPS.ps1 & importGLOBALIPS.ps1 for global Cloudflare Account ID
+
