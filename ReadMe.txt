@@ -66,3 +66,5 @@ IMPORTANT NOTES
 - Make sure PowerShell has permission to write to your Desktop.
 - Do not share your Cloudflare API credentials.
 
+import.ps1 & export.ps1 are for Cloudflare Zone IP's
+exportGLOBALIPS.ps1 & importGLOBALIPS.ps1 are for Cloudflare Account ID
